@@ -1,0 +1,11 @@
+#jdbc.url=jdbc:postgresql://192.168.3.9/uh_courses
+#jdbc.user=postgres
+#jdbc.pswd=robot_123456#
+
+#jdbc.url=jdbc:postgresql://47.100.38.198:5433/dbefa9ffb22f434692972373f3a1fa1762uh_courses
+#jdbc.user=pesky_tdrtd6
+#jdbc.pswd=pesky_tdrtd6
+
+jdbc.url=jdbc:mysql://192.168.3.9/uh_courses?characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=UTC
+jdbc.user=root
+jdbc.pswd=robot_123456#
