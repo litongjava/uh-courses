@@ -133,3 +133,4 @@ node_modules/
 dist/
 dist.zip
 package-lock.json
+app-prod.properties
