@@ -7,13 +7,13 @@ import com.litongjava.jfinal.aop.Aop;
 import com.litongjava.jfinal.plugin.activerecord.Db;
 import com.litongjava.jfinal.plugin.activerecord.Record;
 import com.litongjava.jfinal.plugin.activerecord.SqlPara;
-import com.litongjava.uh.courses.demo.InstitutionProcessor;
 import com.litongjava.uh.courses.pipeline.CourseKapPipeline;
 import com.litongjava.uh.courses.pipeline.CourseKapUpdatePipeline;
 import com.litongjava.uh.courses.pipeline.InstitutionPipeline;
 import com.litongjava.uh.courses.pipeline.SemesterPipeline;
 import com.litongjava.uh.courses.pipeline.SubjectPipeline;
 import com.litongjava.uh.courses.processor.CourseKapProcessor;
+import com.litongjava.uh.courses.processor.InstitutionProcessor;
 import com.litongjava.uh.courses.processor.SemesterProcessor;
 import com.litongjava.uh.courses.processor.SubjectProcessor;
 

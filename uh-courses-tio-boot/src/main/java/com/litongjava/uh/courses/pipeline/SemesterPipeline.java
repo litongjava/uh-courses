@@ -39,13 +39,13 @@ public class SemesterPipeline implements Pipeline {
 
       String uri = links.get(i);
       String abbrName = null;
-      String t = null;
+      Integer t = null;
       Pattern compiledPattern = Pattern.compile(pattern);
       Matcher matcher = compiledPattern.matcher(uri);
 
       if (matcher.find()) {
         abbrName = matcher.group(1);
-        t = matcher.group(2);
+        t = Integer.parseInt(matcher.group(2));
 
       } else {
         System.out.println("没有匹配的值");

@@ -65,7 +65,7 @@ public class SpiderServiceTest {
 
   @Test
   public void spiderCourseToDbForKap() {
-    String semesterName="Fall 2023";
+    String semesterName="Fall 2024";
     spiderService.spiderCourseToDbForKap(semesterName);
   }
 

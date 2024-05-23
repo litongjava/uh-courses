@@ -26,7 +26,8 @@ public class InstitutionPipeline implements Pipeline {
         continue;
       }
       String abbrName = split[1];
-      Integer integer = Db.queryInt("select count(1) from institution where abbr_name=?", abbrName);
+      //Integer integer = Db.queryInt("select count(1) from institution where abbr_name=?", abbrName);
+      Integer integer=0;
       if (integer > 0) {
         continue;
       } else {
@@ -34,8 +35,8 @@ public class InstitutionPipeline implements Pipeline {
         record.put("id", new SnowflakeIdGenerator(0, 0).generateId());
         record.put("abbr_name", abbrName);
         record.put("name", names.get(i));
-        boolean institution = Db.save("institution", record);
-        log.info("save {},{}", abbrName, institution);
+//        boolean institution = Db.save("institution", record);
+        log.info("save {},{}", abbrName, record);
       }
     }
   }

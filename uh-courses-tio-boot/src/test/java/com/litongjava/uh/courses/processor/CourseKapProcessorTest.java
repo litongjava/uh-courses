@@ -23,7 +23,7 @@ public class CourseKapProcessorTest {
   @Test
   public void testSpider() {
     log.info("start");
-    String url = "https://www.sis.hawaii.edu/uhdad/avail.classes?i=KAP&t=202410&s=CULN";
+    String url = "https://www.sis.hawaii.edu/uhdad/avail.classes?i=KAP&t=202430";
     int threadNum = 1;
     Spider.create(new CourseKapProcessor())
       // url
